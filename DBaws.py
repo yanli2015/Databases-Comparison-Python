@@ -239,25 +239,6 @@ def mysql_read_throughput(num_samples):
 
 
 if __name__ == "__main__":
-    # arg = input("Please input the number of samples: ")
-    # num_samples = []
-    # num_samples.append(int(arg))
-    # for i in num_samples:
-    #     print("mongodb_write_throughput: "+ str(i) + " samples---->"+ str(mongodb_write_throughput(i)))
-    # for i in num_samples:
-    #     print("mongodb_read_throughput: " + str(i) + " samples---->" + str(mongodb_read_throughput(i)))
-    # for i in num_samples:
-    #     print("mysql_write_throughput: "+ str(i) + " samples---->" + str(mysql_write_throughput(i)))
-    # for i in num_samples:
-    #     print("mysql_read_throughput: "+ str(i) + " samples---->" + str(mysql_read_throughput(i)))
-    # for i in num_samples:
-    #     print("dynamoDB_write_throughput: " + str(i) + " samples---->" + str(dynamoDB_write_throughput(i)))
-    # for i in num_samples:
-    #     print("dynamoDB_read_throughput: " + str(i) + " smaples---->" + str(dynamoDB_read_throughput(i)))
-    # dynamoDB_create_table()
-    # print(dynamoDB_write_throughput(20))
-    # print(dynamoDB_read_throughput(20))
-    # print(binomial_dist_gen(30))
     dynamoDB_create_table()
     # get_results_from_DB()
     # dynamoDB_create_table()
