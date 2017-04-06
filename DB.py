@@ -241,12 +241,6 @@ def mysql_read_throughput(num_samples):
 
 
 if __name__ == "__main__":
-    # dynamoDB_create_table()
-    # print(dynamoDB_write_throughput(20))
-    # print(dynamoDB_read_throughput(20))
-    # print(binomial_dist_gen(30))
-    # dynamoDB_create_table()
-    # get_results_from_DB()
     # clean_table()
     dynamoDB_create_table()
     # mongodb_write_throughput(10)
